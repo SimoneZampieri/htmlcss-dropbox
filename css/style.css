@@ -188,3 +188,43 @@ li{
     color: black;
     font-weight: bold;
 }
+
+.team{
+    max-width: 100%;
+    margin-top: 40px;
+    border: 1px solid #d0cfd4;
+    position: relative;
+}
+
+.tipologia1{
+    text-align: center;
+    border-bottom: 1px solid #d0cfd4;
+}
+
+.team p{
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.team h3{
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.team .solutions{
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.team a{
+    background-color: #0061ff;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
