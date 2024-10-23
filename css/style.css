@@ -55,6 +55,57 @@ li{
 
 /* main */
 
+main{
+    background-color: #b4d0e6;
+}
+
 .box{
     margin: 0 auto;
+    padding-top: 50px;
+    width: 1100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.titolo{
+    max-width: 800px;
+}
+
+.titolo h1{
+    font-size: 60px;
+}
+
+.info{
+    max-width: 300px;
+    font-size: 15px;
+    position: relative;
+}
+
+.info p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.info a{
+    color: white;
+    background-color: #0061ff;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.info i{
+    font-size: 40px;
+}
+
+.foto{
+    max-width: 500px;
+    padding-top: 20px;
+}
+
+.foto img{
+    max-width: 700px;
+}
+
+.cont2{
+    justify-content: center;
 }
