@@ -17,6 +17,10 @@ body{
     display: flex;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 /* header */
 
 header{
@@ -142,11 +146,12 @@ li{
 
 .col{
     max-width: 30%;
+    max-height: 100%;
     margin-top: 20px;
     border: 1px solid #d0cfd4;
 }
 
-.col p:last-child{
+.acquista p{
     color: grey;
 }
 
@@ -164,15 +169,20 @@ li{
 
 .col li:first-child::before{
     content: '\f007';
-
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
 }
 
 .col li:nth-child(2)::before{
     content: '\f07b';
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
 }
 
 .col li:last-child::before{
     content: '\f1e0';
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
 }
 
 .bottone{
@@ -202,8 +212,11 @@ li{
     font-weight: bold;
 }
 
-.punti li:before{
+.lista ol li:before{
     content: '\f00c';
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    color: #0061ff;
 }
 
 .team{
@@ -271,4 +284,27 @@ li{
     text-decoration: none;
     color: black;
     padding: 5px;
+}
+
+/* cards e foto */
+
+.box3{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.col1{
+    max-width: 30%;
+    max-height: 100%;
+    margin-top: 20px;1
+}
+
+.foto img{
+    max-width: 100%;
+}
+
+.didascalia p{
+    padding-top: 10px;
+    font-size: 15px;
 }
