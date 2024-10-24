@@ -162,6 +162,19 @@ li{
     margin-top: 20px;
 }
 
+.col li:first-child::before{
+    content: '\f007';
+
+}
+
+.col li:nth-child(2)::before{
+    content: '\f07b';
+}
+
+.col li:last-child::before{
+    content: '\f1e0';
+}
+
 .bottone{
     text-align: center;
     margin-top: 20px;
@@ -187,6 +200,10 @@ li{
 .punti p{
     color: black;
     font-weight: bold;
+}
+
+.punti li:before{
+    content: '\f00c';
 }
 
 .team{
@@ -227,4 +244,31 @@ li{
     position: absolute;
     top: 50px;
     right: 10px;
+}
+
+/* foto box */
+
+.image{
+    max-width: 500px;
+}
+
+.image img{
+    max-width: 100%;
+}
+
+.testo{
+    max-width: 300px;
+    padding: 20px;
+}
+
+.testo p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.testo a{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
 }
