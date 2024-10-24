@@ -17,7 +17,7 @@
         <div class="container dflex">
             <div class="row dflex">
                 <div class="col1 dflex">
-                   <nav>
+                   <nav class="main-nav center">
                      <ol>
                         <li><img src="./img/logo-small.png" alt=""></li>
                         <li>Perché Dropbox</li>
@@ -27,7 +27,7 @@
                    </nav>
                 </div> 
                 <div class="col2 dflex">
-                    <nav>
+                    <nav class="main-nav dflex center">
                         <ol>
                             <li>Supporto</li>
                             <li>Contatta l'ufficio vendite</li>
@@ -35,9 +35,8 @@
                             <li><a href="#">Inizia</a></li>
                         </ol>
                     </nav>
-                    </div>
-                </div> 
-            </div>
+                </div>
+            </div> 
         </div>
     </header>
 
@@ -64,7 +63,7 @@
 
 
            <!-- titolo e piani -->
-        <div class="box2">
+        <div class="box2" id="#ancora">
             <div class="title">
                 <h2>Trova il piano business che fa per te</h2>
                 <li><input type="radio" name="Fatturazione mensile">Fatturazione mensile</li>
@@ -83,11 +82,14 @@
                     <p>Professional</p>
                     <p>12,00&euro;</p>
                     <p>/mese</p>
-                    <ol>
-                        <li>1 utente</li>
-                        <li>5TB di spazio di archiviazione sicuro</li>
-                        <li>Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                    </ol>
+                    <nav class="servizi">
+                        <ol>
+                            <li>1 utente</li>
+                            <li>5TB di spazio di archiviazione sicuro</li>
+                            <li>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                        </ol>
+                    </nav>
+                    
                     <div class="bottone">
                         <a href="#">Prova gratis per 30 giorni</a>
                     </div>
@@ -116,11 +118,13 @@
                     <p>Advanced</p>
                     <p>18,00&euro;</p>
                     <p>/utente /mese</p>
-                    <ol>
-                        <li>3 o più utenti</li>
-                        <li>Tutto lo spazio di cui ha bisogno il tuo team</li>
-                        <li>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
-                    </ol>
+                    <nav class="servizi">
+                        <ol>
+                            <li>3 o più utenti</li>
+                            <li>Tutto lo spazio di cui ha bisogno il tuo team</li>
+                            <li>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
+                        </ol>
+                    </nav>    
                     <div class="bottone">
                         <a href="#">Prova gratis per 30 giorni</a>
                     </div>
@@ -152,11 +156,14 @@
                     <p>Enterprise</p>
                     <p>Contattaci</p>
                     <p>-</p>
-                    <ol>
-                        <li>10 o più utenti</li>
-                        <li>Soluzioni personalizzabili per la tua azienda</li>
-                        <li>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
-                    </ol>
+                    <nav class="servizi">
+                        <ol>
+                            <li>10 o più utenti</li>
+                            <li>Soluzioni personalizzabili per la tua azienda</li>
+                            <li>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
+                        </ol>
+                    </nav>
+                    
                     <div class="bottone">
                         <a href="#">Prova gratis per 30 giorni</a>
                     </div>
@@ -204,9 +211,9 @@
                     <a href="#">Trova un partner</a>
                 </div>
              </div>
-
-             <!--/foto e box-->
         </div>
+
+        <!-- foto e box -->
 
         <div class="box3">
             <h2>Esegui più operazioni con Dropbox business</h2>
@@ -214,7 +221,7 @@
 
                 <!-- folder -->
                 <div class="col1">
-                    <div class="foto">
+                    <div class="pics">
                         <img src="./img/business-feature-switching-tools.png" alt="Switch">
                     </div>
                     <div class="didascalia">
@@ -226,7 +233,7 @@
 
                 <!-- trasferisci -->
                 <div class="col1">
-                    <div class="foto">
+                    <div class="pics">
                         <img src="./img/business-feature-send-files-it.png" alt="Files">
                     </div>
                     <div class="didascalia">
@@ -238,7 +245,7 @@
 
                 <!--Proposta-->
                 <div class="col1">
-                    <div class="foto">
+                    <div class="pics">
                         <img src="./img/business-feature-coordinate-it.png" alt="Business">
                     </div>
                     <div class="didascalia">
@@ -250,7 +257,7 @@
 
                 <!--riunione-->
                 <div class="col1">
-                    <div class="foto">
+                    <div class="pics">
                         <img src="./img/business-feature-integrations-it.png" alt="Business">
                     </div>
                     <div class="didascalia">
@@ -262,7 +269,7 @@
 
                 <!--ps-->
                 <div class="col1">
-                    <div class="foto">
+                    <div class="pics">
                         <img src="./img/business-feature-multi-device.png" alt="Business">
                     </div>
                     <div class="didascalia">
@@ -274,7 +281,7 @@
 
                 <!--vault-->
                 <div class="col1">
-                    <div class="foto">
+                    <div class="pics">
                         <img src="./img/business-feature-security.png" alt="Business">
                     </div>
                     <div class="didascalia">
@@ -283,13 +290,33 @@
                     </div>
                 </div>
                 <!--/vault-->
-
-
-
+                
+                <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
+                <a href="#">Scopri di più sui nostri clienti</a>
+                
+         </div>
+        </div> 
         
     </main>
 
-    <footer>F</footer>
+    <footer>
+        <div class="box3">
+            <div class="row2 dflex wrap">
+                <div class="col1">
+                    <nav class="foot-nav">
+                        <ol>
+                            <li>Dropbox</li>
+                            <li>Applicazione desktop</li>
+                            <li>Perchè Dropbox</li>
+                            <li>Piani</li>
+                            <li>Sicurezza</li>
+                            <li>Funzioni</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>   
+        </div>
+    </footer>
     
 </body>
 </html>

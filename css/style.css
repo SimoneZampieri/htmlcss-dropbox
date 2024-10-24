@@ -21,6 +21,9 @@ body{
     flex-wrap: wrap;
 }
 
+.center{
+    align-items: center;
+}
 /* header */
 
 header{
@@ -31,11 +34,17 @@ header{
     padding: 10px;
 }
 
-ul{
+.main-nav{
+    padding: 5px;
+    list-style: none;
+    display: inline;
+}
+
+.main-nav ul{
     padding: 5px;
 }
 
-li{
+.main-nav li{
     padding: 5px;
     list-style: none;
     display: inline-block;
@@ -104,7 +113,7 @@ li{
     padding-top: 20px;
 }
 
-.foto img{
+.box img{
     max-width: 700px;
 }
 
@@ -136,6 +145,8 @@ li{
 .title li{
     margin-top: 20px;
     padding: 5px;
+    display: inline-block;
+    list-style: none;
 }
 
 .tipologia{
@@ -161,25 +172,26 @@ li{
 
 .col li{
     padding: 10px;
+    list-style: none;
 }
 
-.col li:first-child{
+.servizi li:first-child{
     margin-top: 20px;
 }
 
-.col li:first-child::before{
+.servizi li:first-child::before{
     content: '\f007';
     font-family: 'Font Awesome\ 5 Free';
     font-weight: 900;
 }
 
-.col li:nth-child(2)::before{
+.servizi li:nth-child(2)::before{
     content: '\f07b';
     font-family: 'Font Awesome\ 5 Free';
     font-weight: 900;
 }
 
-.col li:last-child::before{
+.servizi li:last-child::before{
     content: '\f1e0';
     font-family: 'Font Awesome\ 5 Free';
     font-weight: 900;
@@ -297,14 +309,39 @@ li{
 .col1{
     max-width: 30%;
     max-height: 100%;
-    margin-top: 20px;1
+    margin-top: 20px;
 }
 
-.foto img{
+.pics img{
     max-width: 100%;
 }
 
 .didascalia p{
     padding-top: 10px;
     font-size: 15px;
+}
+
+.box3 h2{
+    margin-top: 100px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.box3 a{
+    color: #0061ff;
+    margin-bottom: 100px;
+}
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.row2{
+    max-width: 100%;
+}
+
+.foot-nav{
+
 }
